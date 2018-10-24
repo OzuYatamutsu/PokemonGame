@@ -22,4 +22,7 @@ def pokemongame():
                 return "Goodbye!"
         if playeranswer.lower() != pokemonname:
             return "OOF"
-            
+        
+        
+if __name__ == '__main__':
+    print(pokemongame())
